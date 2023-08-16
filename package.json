@@ -1,26 +1,12 @@
 {
-  "name": "getting-started",
+  "name": "discord-example-app",
   "version": "1.0.0",
-  "description": "Discord example app",
   "main": "app.js",
-  "type": "module",
-  "engines": {
-    "node": "16.x"
-  },
-  "scripts": {
-    "start": "node app.js",
-    "register": "node commands.js",
-    "dev": "nodemon app.js"
-  },
-  "author": "Shay DeWael",
+  "repository": "https://github.com/discord/discord-example-app.git",
+  "author": "Brabrah <brabrah@protonmail.com>",
   "license": "MIT",
   "dependencies": {
-    "discord-interactions": "^3.2.0",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "node-fetch": "^3.3.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
+    "discord.js": "^14.12.1",
+    "dotenv": "^16.3.1"
   }
 }
